@@ -1,5 +1,15 @@
-import '@/styles/globals.css'
+import { CssBaseline } from '@mui/material';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+const theme = createTheme();
+
+function MyApp({ Component, pageProps }) {
+  return (
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Component {...pageProps} />
+      </ThemeProvider>
+  );
 }
+
+export default MyApp;
