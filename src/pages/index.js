@@ -34,8 +34,8 @@ function WelcomeMessage() {
                 Welcome to Iframe Hub
             </Typography>
             <Typography variant="body1" component="p">
-                To get started, enter a URL and click "Add URL" to embed the website
-                content in an iframe. Your URLs will be stored in your browser's local
+                To get started, enter a URL and click Add URL to embed the website
+                content in an iframe. Your URLs will be stored in your browsers local
                 storage so they will be available when you return to the site.
             </Typography>
         </Box>
